@@ -17,7 +17,6 @@ public class TestJavaThingsApplication {
 //        SpringApplication.run(TestJavaThingsApplication.class, args);
 
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("h:mm a z").withLocale(Locale.ENGLISH);
-//        LocalDateTime startTime = LocalTime.parse("9:00 am", dateTimeFormatter).atDate(LocalDate.now(ZoneId.of("Canada/Atlantic")));
         LocalDateTime startTime = LocalTime.parse("9:00 AM", dateTimeFormatter).atDate(LocalDate.now(ZoneId.of("Canada/Atlantic")));
         System.out.println(startTime);
     }
