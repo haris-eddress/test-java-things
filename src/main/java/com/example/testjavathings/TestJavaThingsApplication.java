@@ -10,16 +10,11 @@ import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-//@SpringBootApplication
+@SpringBootApplication
 public class TestJavaThingsApplication {
 
     public static void main(String[] args) {
-//        SpringApplication.run(TestJavaThingsApplication.class, args);
-
-        // Check data time format.
-        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("h:mm a z").withLocale(Locale.ENGLISH);
-        LocalDateTime startTime = LocalTime.parse("9:00 AM", dateTimeFormatter).atDate(LocalDate.now(ZoneId.of("Canada/Atlantic")));
-        System.out.println(startTime);
+        SpringApplication.run(TestJavaThingsApplication.class, args);
     }
 
 }
