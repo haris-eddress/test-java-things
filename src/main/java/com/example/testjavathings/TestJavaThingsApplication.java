@@ -10,14 +10,11 @@ import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-//@SpringBootApplication
+@SpringBootApplication
 public class TestJavaThingsApplication {
 
     public static void main(String[] args) {
-//        SpringApplication.run(TestJavaThingsApplication.class, args);
-
-        // Check data time format.
-        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("h:mm a z").withLocale(Locale.ENGLISH);
+        SpringApplication.run(TestJavaThingsApplication.class, args);
     }
 
 }
