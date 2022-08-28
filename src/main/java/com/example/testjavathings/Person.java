@@ -2,7 +2,7 @@ package com.example.testjavathings;
 
 public class Person {
 
-    private Integer id;
+    private Integer mainPersonId;
     private String name;
     private String mainPersonEmail;
 }
