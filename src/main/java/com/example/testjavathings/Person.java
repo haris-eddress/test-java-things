@@ -4,5 +4,5 @@ public class Person {
 
     private Integer id;
     private String name;
-    private String email;
+    private String mainPersonEmail;
 }
